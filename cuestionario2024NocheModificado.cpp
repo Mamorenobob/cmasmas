@@ -356,9 +356,11 @@ main()
 						}
 				break;
 				case 3: 
+				int ale;
 				srand(time(NULL));
-				aleatorio=rand()%11;
-				switch(aleatorio){
+				ale=rand()%11;
+				switch(ale)
+				{
 				case 1:
 					cout<<"RESOLVER PROCESOS LÓGICOS"<<endl; 
 					cout<<"1-¿Cual es el resultado de de la exporesion logica?\n(True and False) or (True and True)"<<endl;
@@ -560,7 +562,7 @@ main()
 							cout<<"La respuesta correcta es Obtener el residuo de la division entre dos numeros"<<endl;
 							contan=contan+1;
 						}	
-												
+											
 				break;
 				}
 				case 4: cout<< "CODIFICAR EL SOFTWARE."<<endl<<endl;

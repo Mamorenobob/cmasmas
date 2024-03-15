@@ -400,8 +400,8 @@ main()
 							cout<<"La respuesta correcta es While"<<endl;
 							contan=contan+1;
 						}
-					break;
-					case 3:	
+				break;
+				case 3:	
 					cout<<"3-¿Que operador logico se utiliza para negar una condicion?"<<endl;
 					cout<<"a)&&"<<endl;
 					cout<<"b)!="<<endl;
@@ -420,8 +420,8 @@ main()
 							cout<<"La respuesta correcta es '!'"<<endl;
 							contan=contan+1;
 						}	
-					break;
-					case 4:
+				break;
+				case 4:
 					cout<<"4-¿Cual es la complejidad temporal del algoritmo de busqueda binaria en una lista ordenada?"<<endl;
 					cout<<"a)O(n)"<<endl;
 					cout<<"b)O(log n)"<<endl;
@@ -440,8 +440,8 @@ main()
 							cout<<"La respuesta correcta es 'O (log n)'"<<endl;
 							contan=contan+1;
 						}
-					break;
-					case 5:
+				break;
+				case 5:
 					cout<<"5-¿Cual es la funcion de un algoritmo de ordenamiento?"<<endl;
 					cout<<"a)Buscar un elemento en una lista"<<endl;
 					cout<<"b)Reorganizar los elementos de una lista en un orden especifico"<<endl;
@@ -460,8 +460,8 @@ main()
 							cout<<"La respuesta correcta es Reorganizar los elementos de una lista en un orden especifico"<<endl;
 							contan=contan+1;
 						}
-					break;
-					case 6:									 
+				break;
+				case 6:									 
 					cout<<"6-¿Que tipo de estrcutura de datos se utiliza para almacenar elementos de manera ordenada y permitir la rapida insercion, eliminicacion y busqueda?"<<endl;
 					cout<<"a)Pila"<<endl;
 					cout<<"b)Cola"<<endl;
@@ -480,8 +480,8 @@ main()
 							cout<<"La respuesta correcta es Arbol"<<endl;
 							contan=contan+1;
 						}	 
-					break;
-					case 7:
+				break;
+				case 7:
 					cout<<"7-¿Cual es la salida del siguiente codigo en Python?"<<endl<<"x = 10"<<"x = 5"<<"if x > y:"<<"\tprint('x es mayor que y')"<<"elif x == y:"<<"\tprint('x es igual a y'"<<"else:"<<"\tprint('y es mayor que x'))";
 					cout<<"a)x es mayor que y"<<endl;
 					cout<<"b)x es igual a y"<<endl;
@@ -500,8 +500,8 @@ main()
 							cout<<"La respuesta correcta es x es mayor que y"<<endl;
 							contan=contan+1;
 						}	
-					break;
-					case 8:
+				break;
+				case 8:
 					cout<<"8-¿Cual es el resultado de la operacion '5 << 2' en Python?"<<endl;
 					cout<<"a)10"<<endl;
 					cout<<"b)20"<<endl;
@@ -520,8 +520,8 @@ main()
 							cout<<"La respuesta correcta es '8'"<<endl;
 							contan=contan+1;
 						}	
-					break;
-					case 9:
+				break;
+				case 9:
 					cout<<"9-¿Que es la recursividad en programacion?"<<endl;
 					cout<<"a)Un tipo de bucle"<<endl;
 					cout<<"b)Una tecnica para divir un problema en subproblemas mas pequeños y resolverlos de manera recursiva"<<endl;
@@ -540,8 +540,8 @@ main()
 							cout<<"La respuesta correcta es Una tecnica para divir un problema en subproblemas mas pequeños y resolverlos de manera recursiva"<<endl;
 							contan=contan+1;
 						}
-					break;
-					case 10:
+				break;
+				case 10:
 					cout<<"10-¿Cual es la funcion del operador del modulo '%' en programacion?"<<endl;
 					cout<<"a)Sumar dos numeros"<<endl;
 					cout<<"b)Restar dos numeros"<<endl;

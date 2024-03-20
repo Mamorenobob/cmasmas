@@ -898,6 +898,186 @@ main()
 									cout<<"La respuesta correcta es frecuencia";
 									contan=contan+1;
 								}	
+							cout<<"31- Dada la siguiente función en un lenguaje de programación hipotético:"<<endl<<"def buscar_numero_mayor(lista):"<<endl<<"if len(lista == 0):"<<endl<<"\treturn Note"<<endl<<"else:"<<endl<<"\tmayor = lista[0]"<<endl<<"\tfor num in lista:"<<endl<<"\t\tif num > mayor:"<<endl<<"\t\t\tmayor = num"<<endl<<"\t\treturn mayor";
+							cout<<"a) 7"<<endl;
+							cout<<"b) 15"<<endl;
+							cout<<"c) 2"<<endl;
+							cout<<"d) 9"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"la respuesta 15 "<<endl;
+									contan=contan+1;
+								}	 
+							cout<<"32- ¿Cuál es la diferencia entre un bucle for y un bucle while en programación?"<<endl;
+							cout<<"a)Un bucle for se utiliza cuando se conoce el número exacto de iteraciones"<<endl;
+							cout<<"b)un bucle while se utiliza cuando el número de iteraciones puede variar y depende de una condición."<<endl;
+							cout<<"c)a y b son correctas"<<endl;
+							cout<<"d)Un bucle for se utiliza cuando se conoce el número exacto de iteraciones, mientras que un bucle while se utiliza cuando el número de iteraciones puede variar y depende de una condición."<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"la respuesta correcta es Un bucle for se utiliza cuando se conoce el número exacto de iteraciones, mientras que un bucle while se utiliza cuando el número de iteraciones puede variar y depende de una condición. "<<endl; 
+									contan=contan+1;
+								}	
+							cout<<"33-¿Qué es la recursividad en programación?"<<endl;
+							cout<<"a)Es ser recursivo"<<endl;
+							cout<<"b)La recursividad es un concepto en el que una función se llama a sí misma directa o indirectamente para resolver un problema más pequeño dentro de un problema más grande."<<endl;
+							cout<<"c)Permite crear métodos y funciones capaces de enumerar cualquier tipo de estructura"<<endl;
+							cout<<"d)Es resolver ciertas tareas de manera elegante"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es La recursividad es un concepto en el que una función se llama a sí misma directa o indirectamente para resolver un problema más pequeño dentro de un problema más grande. "<<endl;
+									contan=contan+1;
+								}	
+							cout<<"34-¿Qué es la optimización de código y por qué es importante en la programación?"<<endl;
+							cout<<"a)La optimización de código es el proceso de mejorar el rendimiento, eficiencia y legibilidad del código"<<endl;
+							cout<<"b)Es el proceso a través del cual se mejora la eficiencia y rapidez de un sistema informático"<<endl;
+							cout<<"c)es el proceso de hacer algo lo más efectivo o funcional posible"<<endl;
+							cout<<"d)conjunto de fases de un compilador que transforman un fragmento de código en otro fragmento con un comportamiento equivalente y que se ejecuta de forma más eficiente"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es La optimización de código es el proceso de mejorar el rendimiento, eficiencia y legibilidad del código "<<endl;
+									contan=contan+1;
+								}
+							cout<<"35-¿Cuál es la importancia de los comentarios en el código de programación?"<<endl;
+							cout<<"a)Es texto que el compilador omite pero que es útil para los programadores"<<endl;
+							cout<<"b)Se pueden utilizar para resumir el código o para explicar la intención del programador"<<endl;
+							cout<<"c)Los comentarios son texto descriptivo que se añade al código para explicar su funcionamiento y facilitar su comprensión a otros programadores"<<endl;
+							cout<<"d)Es inddicar algo en la fuente"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es Los comentarios son texto descriptivo que se añade al código para explicar su funcionamiento y facilitar su comprensión a otros programadores "<<endl;
+									contan=contan+1;
+								}										 
+							cout<<"36-¿Qué son las estructuras de datos en programación y cuál es su función?"<<endl;
+							cout<<"a)Las estructuras de datos son formas de organizar y almacenar datos en la memoria de una computadora para facilitar su acceso y manipulación eficiente."<<endl;
+							cout<<"b)develop,template,toolbar"<<endl;
+							cout<<"c)username,password,wifi"<<endl;
+							cout<<"d)screen,phone,code"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es Las estructuras de datos son formas de organizar y almacenar datos en la memoria de una computadora para facilitar su acceso y manipulación eficiente."<<endl;
+									contan=contan+1;
+								}	 
+							cout<<"37-¿Qué algoritmo utilizarías para verificar si un grafo es bipartito?"<<endl;
+							cout<<"a)Usaría un algoritmo de coloreado de grafos con dos colores, aplicando una búsqueda en anchura o en profundidad para asegurar que no haya adyacencias entre nodos del mismo color. "<<endl;
+							cout<<"b)Una función que maneja eventos."<<endl;
+							cout<<"c)Una unidad de archivos."<<endl;
+							cout<<"d)Ninguna es correcta."<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es Usaría un algoritmo de coloreado de grafos con dos colores, aplicando una búsqueda en anchura o en profundidad para asegurar que no haya adyacencias entre nodos del mismo color."<<endl;
+									contan=contan+1;
+								}	
+							cout<<"38-¿Cómo podrías optimizar la búsqueda en un arreglo ordenado pero rotado?"<<endl;
+							cout<<"a)Con una función."<<endl;
+							cout<<"b)Un archivo configurado."<<endl;
+							cout<<"c)Emplearía una variante de la búsqueda binaria que pueda manejar el punto de rotación del arreglo"<<endl;
+							cout<<"d)Ninguna es correcta"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es Emplearía una variante de la búsqueda binaria que pueda manejar el punto de rotación del arreglo"<<endl;
+									contan=contan+1;
+								}	
+							cout<<"39-¿Qué técnica aplicarías para encontrar el ancestro común más bajo en un árbol binario de búsqueda?"<<endl;
+							cout<<"a)Realizaría una búsqueda simultánea desde la raíz, moviéndome hacia la izquierda o la derecha dependiendo de los valores de los nodos hasta encontrar el ancestro común"<<endl;
+							cout<<"b)Una unidad reutilizable"<<endl;
+							cout<<"c)A y B son correctas"<<endl;
+							cout<<"d)Ninguna es correcta"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es Realizaría una búsqueda simultánea desde la raíz, moviéndome hacia la izquierda o la derecha dependiendo de los valores de los nodos hasta encontrar el ancestro común"<<endl;
+									contan=contan+1;
+								}
+							cout<<"40-¿Qué enfoque tomarías para verificar si dos árboles binarios son isomorfos?"<<endl;
+							cout<<"a)Considerando todos los casos posibles"<<endl;
+							cout<<"b)Implementaría el algoritmo"<<endl;
+							cout<<"c)Compararía los nodos de ambos árboles recursivamente, considerando todos los casos posibles de isomorfismo"<<endl;
+							cout<<"d)Los nodos de ambos árboles recursivamente"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"la respuesta correcta es Compararía los nodos de ambos árboles recursivamente, considerando todos los casos posibles de isomorfismo"<<endl;
+									contan=contan+1;
+								}	
 				default:cout<<"nooooooooommm";									
 				break;
 				}

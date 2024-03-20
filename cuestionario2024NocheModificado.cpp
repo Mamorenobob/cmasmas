@@ -356,213 +356,549 @@ main()
 						}
 				break;
 				case 3: 
-				int ale;
-				srand(time(NULL));
-				ale=rand()%11;
-				switch(ale)
-				{
-				case 1:
-					cout<<"RESOLVER PROCESOS LÓGICOS"<<endl; 
-					cout<<"1-¿Cual es el resultado de de la exporesion logica?\n(True and False) or (True and True)"<<endl;
-					cout<<"a)True"<<endl;
-					cout<<"b)False"<<endl;
-					cout<<"c)None"<<endl;
-					cout<<"d)Error"<<endl;
-					cin>>respuesta;
+						{
+							cout<<"RESOLVER PROCESOS LÓGICOS"<<endl; 
+							cout<<"1-¿Cual es el resultado de de la exporesion logica?\n(True and False) or (True and True)"<<endl;
+							cout<<"a)True"<<endl;
+							cout<<"b)False"<<endl;
+							cout<<"c)None"<<endl;
+							cout<<"d)Error"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='b')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl;
-							cout<<"La respuesta correcta es False"<<endl;
-							contan=contan+1;
-						}	 
-				break;
-				case 2:
-					cout<<"2-¿Que estructura de control se utiliza para repetir un bloque de codigo hasta que una condicion se vuelva falsa?"<<endl;
-					cout<<"a)if"<<endl;
-					cout<<"b)for"<<endl;
-					cout<<"c)switch"<<endl;
-					cout<<"d)while"<<endl;
-					cin>>respuesta;
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es False"<<endl;
+									contan=contan+1;
+								}	 
+							cout<<"2-¿Que estructura de control se utiliza para repetir un bloque de codigo hasta que una condicion se vuelva falsa?"<<endl;
+							cout<<"a)if"<<endl;
+							cout<<"b)for"<<endl;
+							cout<<"c)switch"<<endl;
+							cout<<"d)while"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='d')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							cout<<"La respuesta correcta es While"<<endl;
-							contan=contan+1;
-						}
-				break;
-				case 3:	
-					cout<<"3-¿Que operador logico se utiliza para negar una condicion?"<<endl;
-					cout<<"a)&&"<<endl;
-					cout<<"b)!="<<endl;
-					cout<<"c)!"<<endl;
-					cout<<"d)="<<endl;
-					cin>>respuesta;
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es While"<<endl;
+									contan=contan+1;
+								}
+							cout<<"3-¿Que operador logico se utiliza para negar una condicion?"<<endl;
+							cout<<"a)&&"<<endl;
+							cout<<"b)!="<<endl;
+							cout<<"c)!"<<endl;
+							cout<<"d)="<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='c')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							cout<<"La respuesta correcta es '!'"<<endl;
-							contan=contan+1;
-						}	
-				break;
-				case 4:
-					cout<<"4-¿Cual es la complejidad temporal del algoritmo de busqueda binaria en una lista ordenada?"<<endl;
-					cout<<"a)O(n)"<<endl;
-					cout<<"b)O(log n)"<<endl;
-					cout<<"c)O (n log n)"<<endl;
-					cout<<"d)O(1)"<<endl;
-					cin>>respuesta;
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es '!'"<<endl;
+									contan=contan+1;
+								}	
+							cout<<"4-¿Cual es la complejidad temporal del algoritmo de busqueda binaria en una lista ordenada?"<<endl;
+							cout<<"a)O(n)"<<endl;
+							cout<<"b)O(log n)"<<endl;
+							cout<<"c)O (n log n)"<<endl;
+							cout<<"d)O(1)"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='b')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							cout<<"La respuesta correcta es 'O (log n)'"<<endl;
-							contan=contan+1;
-						}
-				break;
-				case 5:
-					cout<<"5-¿Cual es la funcion de un algoritmo de ordenamiento?"<<endl;
-					cout<<"a)Buscar un elemento en una lista"<<endl;
-					cout<<"b)Reorganizar los elementos de una lista en un orden especifico"<<endl;
-					cout<<"c)Eliminar elementos diplucados de una lista"<<endl;
-					cout<<"d)Contar el numero de elementos en una lista"<<endl;
-					cin>>respuesta;
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es 'O (log n)'"<<endl;
+									contan=contan+1;
+								}
+							cout<<"5-¿Cual es la funcion de un algoritmo de ordenamiento?"<<endl;
+							cout<<"a)Buscar un elemento en una lista"<<endl;
+							cout<<"b)Reorganizar los elementos de una lista en un orden especifico"<<endl;
+							cout<<"c)Eliminar elementos diplucados de una lista"<<endl;
+							cout<<"d)Contar el numero de elementos en una lista"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='b')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							cout<<"La respuesta correcta es Reorganizar los elementos de una lista en un orden especifico"<<endl;
-							contan=contan+1;
-						}
-				break;
-				case 6:									 
-					cout<<"6-¿Que tipo de estrcutura de datos se utiliza para almacenar elementos de manera ordenada y permitir la rapida insercion, eliminicacion y busqueda?"<<endl;
-					cout<<"a)Pila"<<endl;
-					cout<<"b)Cola"<<endl;
-					cout<<"c)Arbol"<<endl;
-					cout<<"d)Lista enlazada"<<endl;
-					cin>>respuesta;
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Reorganizar los elementos de una lista en un orden especifico"<<endl;
+									contan=contan+1;
+								}								 
+							cout<<"6-¿Que tipo de estrcutura de datos se utiliza para almacenar elementos de manera ordenada y permitir la rapida insercion, eliminicacion y busqueda?"<<endl;
+							cout<<"a)Pila"<<endl;
+							cout<<"b)Cola"<<endl;
+							cout<<"c)Arbol"<<endl;
+							cout<<"d)Lista enlazada"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='c')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							cout<<"La respuesta correcta es Arbol"<<endl;
-							contan=contan+1;
-						}	 
-				break;
-				case 7:
-					cout<<"7-¿Cual es la salida del siguiente codigo en Python?"<<endl<<"x = 10"<<"x = 5"<<"if x > y:"<<"\tprint('x es mayor que y')"<<"elif x == y:"<<"\tprint('x es igual a y'"<<"else:"<<"\tprint('y es mayor que x'))";
-					cout<<"a)x es mayor que y"<<endl;
-					cout<<"b)x es igual a y"<<endl;
-					cout<<"c)y es igual a x"<<endl;
-					cout<<"d)No se imprime nada"<<endl;
-					cin>>respuesta;
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Arbol"<<endl;
+									contan=contan+1;
+								}	 
+							cout<<"7-¿Cual es la salida del siguiente codigo en Python?"<<endl<<"x = 10"<<endl<<"x = 5"<<endl<<"if x > y:"<<endl<<"\tprint('x es mayor que y')"<<endl<<"elif x == y:"<<endl<<"\tprint('x es igual a y'"<<endl<<"else:"<<endl<<"\tprint('y es mayor que x'))";
+							cout<<"a)x es mayor que y"<<endl;
+							cout<<"b)x es igual a y"<<endl;
+							cout<<"c)y es igual a x"<<endl;
+							cout<<"d)No se imprime nada"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='a')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl;
-							cout<<"La respuesta correcta es x es mayor que y"<<endl;
-							contan=contan+1;
-						}	
-				break;
-				case 8:
-					cout<<"8-¿Cual es el resultado de la operacion '5 << 2' en Python?"<<endl;
-					cout<<"a)10"<<endl;
-					cout<<"b)20"<<endl;
-					cout<<"c)25"<<endl;
-					cout<<"d)8"<<endl;
-					cin>>respuesta;
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es x es mayor que y"<<endl;
+									contan=contan+1;
+								}	
+							cout<<"8-¿Cual es el resultado de la operacion '5 << 2' en Python?"<<endl;
+							cout<<"a)10"<<endl;
+							cout<<"b)20"<<endl;
+							cout<<"c)25"<<endl;
+							cout<<"d)8"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='d')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl;
-							cout<<"La respuesta correcta es '8'"<<endl;
-							contan=contan+1;
-						}	
-				break;
-				case 9:
-					cout<<"9-¿Que es la recursividad en programacion?"<<endl;
-					cout<<"a)Un tipo de bucle"<<endl;
-					cout<<"b)Una tecnica para divir un problema en subproblemas mas pequeños y resolverlos de manera recursiva"<<endl;
-					cout<<"c)Una estructura de datos"<<endl;
-					cout<<"d)Un tipo de algoritmo de movimiento"<<endl;
-					cin>>respuesta;
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es '8'"<<endl;
+									contan=contan+1;
+								}	
+							cout<<"9-¿Que es la recursividad en programacion?"<<endl;
+							cout<<"a)Un tipo de bucle"<<endl;
+							cout<<"b)Una tecnica para divir un problema en subproblemas mas pequeños y resolverlos de manera recursiva"<<endl;
+							cout<<"c)Una estructura de datos"<<endl;
+							cout<<"d)Un tipo de algoritmo de movimiento"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='b')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl;
-							cout<<"La respuesta correcta es Una tecnica para divir un problema en subproblemas mas pequeños y resolverlos de manera recursiva"<<endl;
-							contan=contan+1;
-						}
-				break;
-				case 10:
-					cout<<"10-¿Cual es la funcion del operador del modulo '%' en programacion?"<<endl;
-					cout<<"a)Sumar dos numeros"<<endl;
-					cout<<"b)Restar dos numeros"<<endl;
-					cout<<"c)Obtener el residuo de la division entre dos numeros"<<endl;
-					cout<<"d)Multiplicar dos numeros"<<endl;
-					cin>>respuesta;
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Una tecnica para divir un problema en subproblemas mas pequeños y resolverlos de manera recursiva"<<endl;
+									contan=contan+1;
+								}
+							cout<<"10-¿Cual es la funcion del operador del modulo '%' en programacion?"<<endl;
+							cout<<"a)Sumar dos numeros"<<endl;
+							cout<<"b)Restar dos numeros"<<endl;
+							cout<<"c)Obtener el residuo de la division entre dos numeros"<<endl;
+							cout<<"d)Multiplicar dos numeros"<<endl;
+							cin>>respuesta;
 
-				    if(respuesta=='d')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							cout<<"La respuesta correcta es Obtener el residuo de la division entre dos numeros"<<endl;
-							contan=contan+1;
-						}	
-											
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Obtener el residuo de la division entre dos numeros"<<endl;
+									contan=contan+1;
+								}	
+							cout<<"11-Cuál de las siguientes opciones describe mejor un bucle for en la mayoría de los lenguajes de programación? "<<endl;
+							cout<<"a)Repite un bloque de código hasta que se cumpla una condición "<<endl;
+							cout<<"b)Repite un bloque de código un número específico de veces "<<endl;
+							cout<<"c)Repite un bloque de código mientras se cumpla una condición "<<endl;
+							cout<<"d)Repite un bloque de código hasta que el usuario lo interrumpa"<<endl;
+							cin>>respuesta;
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Repite un bloque de código un número específico de veces ";
+									contan=contan+1;
+								}	 
+							cout<<"12-¿Cuál de los siguientes no es un método comúnmente utilizado para controlar el flujo de ejecución en un programa? "<<endl;
+							cout<<"a)Estructuras de selección "<<endl;
+							cout<<"b)Bucles (loops) "<<endl;
+							cout<<"c)Funciones "<<endl;
+							cout<<"d)Sentencias de retorno (return)"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Funciones ";
+									contan=contan+1;
+								}	
+							cout<<"13-¿Qué es la recursión en programación? "<<endl;
+							cout<<"a)Una técnica para evitar el uso de bucles en un algoritmo "<<endl;
+							cout<<"b)Un método para limitar la complejidad temporal de un algoritmo "<<endl;
+							cout<<"c)Un enfoque de diseño de algoritmos que implica que una función se llame a sí misma directa o indirectamente para resolver un problema más pequeño "<<endl;
+							cout<<"d)Una técnica de depuración de código que implica el uso de una función recursiva"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Un enfoque de diseño de algoritmos que implica que una función se llame a sí misma directa o indirectamente para resolver un problema más pequeño ";
+									contan=contan+1;
+								}	
+							cout<<"14-¿Qué es la eficiencia de un algoritmo?"<<endl;
+							cout<<"a)La cantidad de recursos utilizados por el algoritmo "<<endl;
+							cout<<"b)La cantidad de código que contiene el algoritmo "<<endl;
+							cout<<"c)La capacidad del algoritmo para producir resultados correctos "<<endl;
+							cout<<"d)La relación entre los recursos utilizados por el algoritmo y el tamaño del conjunto de datos de entrada"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es La relación entre los recursos utilizados por el algoritmo y el tamaño del conjunto de datos de entrada ";
+									contan=contan+1;
+								}
+							cout<<"15-¿Qué es un tipo de dato en programación? "<<endl;
+							cout<<"a)Una instrucción que detiene la ejecución del programa "<<endl;
+							cout<<"b)Una estructura de control que repite un bloque de código hasta que se cumple una condición "<<endl;
+							cout<<"c)Una variable que almacena direcciones de memoria "<<endl;
+							cout<<"d)Una clasificación que especifica qué tipo de datos puede contener una variable"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Una clasificación que especifica qué tipo de datos puede contener una variable ";
+									contan=contan+1;
+								}										 
+							cout<<"16-¿Cuál de los siguientes no es un paradigma de programación comúnmente utilizado? "<<endl;
+							cout<<"a)Programación orientada a objetos "<<endl;
+							cout<<"b)Programación lineal "<<endl;
+							cout<<"c)Programación funcional "<<endl;
+							cout<<"d)Programación estructurada"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Programación lineal "; 
+									contan=contan+1;
+								}	 
+							cout<<"17-¿Qué es un algoritmo?"<<endl;
+							cout<<"a)Un lenguaje de programación "<<endl;
+							cout<<"b)Un conjunto de instrucciones para resolver un problema"<<endl;
+							cout<<"c)Una herramienta de depuración de código "<<endl;
+							cout<<"d)Un sistema operativo"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Un conjunto de instrucciones para resolver un problema "; 
+									contan=contan+1;
+								}	
+							cout<<"18-¿Qué es un depurador (debugger) en programación?"<<endl;
+							cout<<"a)Una herramienta utilizada para introducir errores en el código "<<endl;
+							cout<<"b)Una herramienta utilizada para medir la eficiencia de un algoritmo "<<endl;
+							cout<<"c)Una herramienta utilizada para encontrar y corregir errores en el código "<<endl;
+							cout<<"d)Una herramienta utilizada para generar documentación del código automáticamente"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Una herramienta utilizada para encontrar y corregir errores en el código "; 
+									contan=contan+1;
+								}	
+							cout<<"19-¿Qué es un puntero en programación? "<<endl;
+							cout<<"a)Una variable que almacena direcciones de memoria "<<endl;
+							cout<<"b)Una función que se llama automáticamente cuando se crea una instancia de una clase "<<endl;
+							cout<<"c)Una estructura de datos utilizada para almacenar elementos en una secuencia lineal "<<endl;
+							cout<<"d)Una variable que almacena un único valor"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Una función que se llama automáticamente cuando se crea una instancia de una clase "; 
+									contan=contan+1;
+								}
+							cout<<"20-¿Cuál de los siguientes es un tipo de algoritmo de ordenamiento?, how often"<<endl;
+							cout<<"a)Algoritmo if-else"<<endl;
+							cout<<"b)Algoritmo de búsqueda binaria"<<endl;
+							cout<<"c)Algoritmo de ordenamiento burbuja "<<endl;
+							cout<<"d)Algoritmo recursivo"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Algoritmo recursivo "; 
+									contan=contan+1;
+								}	
+							cout<<"21-?Que es un algoritmo?"<<endl;
+							cout<<"a)Secuencia de instrucciones y operaciones "<<endl;
+							cout<<"b)Conjunto de numeros ordenados"<<endl;
+							cout<<"c)Es la resolucion de un problema general"<<endl;
+							cout<<"d)Secucencia de operaciones finitas"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									contan=contan+1;
+								}	 
+							cout<<"22-?Que es un proceso logico?"<<endl;
+							cout<<"a)Es un pensamiento logico matematico que ayuda a la resoluciion de problemas"<<endl;
+							cout<<"b)Es un razonamiento racional que involucra una serie de ralaciones"<<endl;
+							cout<<"c)Es una forma de incolucrar objetos reales o abstractos "<<endl;
+							cout<<"d)E un raccionamiento abstracto que involucra objetos"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Es un razonamiento racional que involucra una serie de ralaciones "; 
+									contan=contan+1;
+								}	
+							cout<<"23-?Que se entiended por lenguaje de programacion?"<<endl;
+							cout<<"a)Es una forma de interaccion de los humanos con los computadores"<<endl;
+							cout<<"b)Es  un conjunto de instrucciones con el fin de interactuar con una computadora"<<endl;
+							cout<<"c)Es una sintaxis que la computadora entiende e interpreta "<<endl;
+							cout<<"d)Es un proceso eficiente utilizando la pragmatica "<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es Es  un conjunto de instrucciones con el fin de interactuar con una computadora "; 
+									contan=contan+1;
+								}	
+							cout<<"24-Nombre tres fases de desarrollo de un algoritmo"<<endl;
+							cout<<"a)Analisis del problema-codificacion-fin "<<endl;
+							cout<<"b)Entrada-proseso-salida"<<endl;
+							cout<<"c)codificacion-compilacion y ejecucion-diseño"<<endl;
+							cout<<"d)Documentacion-implementacion-informe"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es codificacion-compilacion y ejecucion-diseño "; 
+									contan=contan+1;
+								}
+							cout<<"25-Nombre tres lenguajes de programacion"<<endl;
+							cout<<"a)Pithon-C++-Javaescript"<<endl;
+							cout<<"b)httml-SQL-Perl"<<endl;
+							cout<<"c)Python-C++-JavaScript"<<endl;
+							cout<<"d)Html-C+-Pel"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='c')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Python-C++-JavaScript "; 
+									contan=contan+1;
+								}										 
+							cout<<"26-?cuales de los siguientes terminos son indispensables en la programacion?"<<endl;
+							cout<<"a)smoke,drink,dance"<<endl;
+							cout<<"b)develop,template,toolbar"<<endl;
+							cout<<"c)username,password,wifi"<<endl;
+							cout<<"d)screen,phone,code"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='b')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es develop,template,toolbar"; 
+									contan=contan+1;
+								}	 
+							cout<<"27-?que lenguajes de programacion no son basados en el idioma ingles?"<<endl;
+							cout<<"a)phyton,lua,ruby"<<endl;
+							cout<<"b)java,c++,phyton"<<endl;
+							cout<<"c)c++,php,basic"<<endl;
+							cout<<"d)visual basic,swift,ruby"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta correcta es phyton,lua,ruby";
+									contan=contan+1;
+								}	
+							cout<<"28-I from bogota,?what is my country?"<<endl;
+							cout<<"a)Venezuela"<<endl;
+							cout<<"b)USA"<<endl;
+							cout<<"c)Honduras"<<endl;
+							cout<<"d)Colombia"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es Colombia";
+									contan=contan+1;
+								}	
+							cout<<"29-?which of these language is for beginners?"<<endl;
+							cout<<"a)lpp"<<endl;
+							cout<<"b)phyton"<<endl;
+							cout<<"c)c++"<<endl;
+							cout<<"d)visual basic"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='a')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es lpp";
+									contan=contan+1;
+								}
+							cout<<"30-?que traduce la siguiente expresion?, how often"<<endl;
+							cout<<"a)duracion"<<endl;
+							cout<<"b)edad"<<endl;
+							cout<<"c)rapidez"<<endl;
+							cout<<"d)frecuencia"<<endl;
+							cin>>respuesta;
+
+							if(respuesta=='d')
+								{
+									cout<<"la respuesta es correcta"<<endl;
+									contap=contap+1;
+								}
+							else
+								{
+									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta correcta es frecuencia";
+									contan=contan+1;
+								}	
+				default:cout<<"nooooooooommm";									
 				break;
 				}
 				case 4: cout<< "CODIFICAR EL SOFTWARE."<<endl<<endl;
